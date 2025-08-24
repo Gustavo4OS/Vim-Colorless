@@ -2,7 +2,7 @@
 A monochrome Color scheme for based vim setups
 
 HTML:
-<img width="1920" height="1080" alt="Screenshot_2025-08-24_11-35-38" src="https://github.com/user-attachments/assets/cc271bc5-7565-4477-a1a7-d7ef75afe6e1" />
+<img width="1920" height="1080" alt="Screenshot_2025-08-24_16-13-17" src="https://github.com/user-attachments/assets/117224ec-d254-4a68-8171-6cfced75ca4b" />
 
 Quick install:
 ``` curl
