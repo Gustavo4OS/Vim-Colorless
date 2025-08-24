@@ -14,6 +14,11 @@ let &t_SI = "\e[6 q"
 let &t_SR = "\e[6 q" 
 let &t_EI = "\e[2 q" 
 
+set fillchars-=vert:\|
+set fillchars+=vert:\│
+
+hi! VertSplit ctermfg=0 ctermbg=234
+
 hi! Normal ctermbg=0
 hi! NonText ctermfg=0
 hi! type ctermfg=244
