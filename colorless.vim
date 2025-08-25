@@ -1,8 +1,18 @@
 " Colorless - by gustavo4OS - Thanks for Downloading! :]
 
-let g:colors_name="colorless"
+hi clear
 
-syntax on
+if exists('syntax_on')
+  syntax reset
+endif
+
+if &tgc
+  set notgc
+  echom "[INFO] 'termguicolors' is turned off for colorless.vim to shine."
+        \ "To re-enable it, run ':set tgc'."
+endif
+
+let g:colors_name="colorless"
 
 set cursorline
 "comment the line below and remove the the comment from ctermbg to highlight the full leght of the current line
